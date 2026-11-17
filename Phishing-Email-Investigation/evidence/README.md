@@ -43,7 +43,14 @@ The email's declared timestamp was Tuesday, October 31, 2023, at 10:10:04 (UTC-0
 
 The latest recorded receiving-server event occurred on Tuesday, October 31, 2023, at 19:10:10 (UTC).
 
-**Analyst Observation:**
+**Analyst Observation:** 
+
+#### Supporting Evidence
+
+**Screenshot 1 – Email Header Analysis (Sublime Text)**
+
+![Email Header Analysis](screenshots/Q01-email-header.png)
+
 
 The Date header represents the timestamp declared in the original email, whereas the Received headers document the email's transmission through mail servers.
 
