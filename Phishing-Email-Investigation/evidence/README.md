@@ -49,7 +49,7 @@ The latest recorded receiving-server event occurred on Tuesday, October 31, 2023
 
 **Screenshot 1 – Email Header Analysis (Sublime Text)**
 
-![Email Header Analysis](screenshots/Q01-email-header.png)
+![Email Header Analysis](screenshots/image.png)
 
 
 The Date header represents the timestamp declared in the original email, whereas the Received headers document the email's transmission through mail servers.
