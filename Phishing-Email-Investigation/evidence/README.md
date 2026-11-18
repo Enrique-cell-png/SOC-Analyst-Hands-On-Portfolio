@@ -252,8 +252,39 @@ The hostname was identified through reverse DNS (PTR) resolution of the sender I
 Reverse DNS resolution maps an IP address to an associated hostname. This information helps analysts identify and investigate the mail infrastructure involved in email delivery.
 
 The resolved hostname provides additional context for correlating the sender IP address with the infrastructure referenced in the email headers.
-### Question 9 – Pending
+---
 
+## Question 9 – Sender IP Address Ownership Identification
+
+**Question:**
+
+What corporation owns the sender's IP address?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The IP address `40.107.22.60` is registered to:
+
+`Microsoft Corporation`
+
+**Analysis:**
+
+The IP address ownership was verified using the WHOIS lookup service provided by the American Registry for Internet Numbers (ARIN).
+
+The WHOIS results identified the following information:
+
+- **NetName:** MSFT
+- **Organization:** Microsoft Corporation
+- **NetType:** Direct Allocation
+- **IP allocation range:** `40.74.0.0 - 40.125.127.255`
+
+This confirms that the IP address belongs to an IP allocation registered to Microsoft Corporation.
+
+From a cybersecurity investigation perspective, identifying the registered owner of an IP address helps analysts understand the infrastructure involved in email delivery.
+
+However, IP ownership alone does not establish whether an email is legitimate or malicious. Additional analysis is required to determine the role of the IP address in the phishing campaign.
 ### Question 10 – Pending
 
 ### Question 11 – Pending
