@@ -128,6 +128,11 @@ The email claims to be from:
 `Outlook Support Team`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 4 – Sender Display Name Identification (Sublime Text)**
+
+![Sender Display Name Identification](screenshots/Q04-sender-display-name.png)
 
 The sender's display name was identified by examining the `From` field in the original email header.
 
