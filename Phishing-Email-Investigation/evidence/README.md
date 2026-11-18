@@ -223,8 +223,30 @@ The IP address was identified by examining the `X-Sender-IP` field in the origin
 This field identifies the IP address associated with the sending server as reported by the email header. The address can be used as an indicator of compromise (IOC) for further investigation, including IP reputation checks and infrastructure analysis.
 
 It is important to correlate this value with the `Received` headers before attributing the IP address to the original sender or attacker.
-### Question 8 – Pending
+---
 
+## Question 8 – Sender IP Resolved Hostname Identification
+
+**Question:**
+
+What is the resolved hostname of the sender's IP address?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The resolved hostname associated with sender IP address `40.107.22.60` is:
+
+`mail-am6eur05on2060.outbound.protection.outlook.com`
+
+**Analysis:**
+
+The hostname was identified through reverse DNS (PTR) resolution of the sender IP address `40.107.22.60`.
+
+Reverse DNS resolution maps an IP address to an associated hostname. This information helps analysts identify and investigate the mail infrastructure involved in email delivery.
+
+The resolved hostname provides additional context for correlating the sender IP address with the infrastructure referenced in the email headers.
 ### Question 9 – Pending
 
 ### Question 10 – Pending
