@@ -110,7 +110,28 @@ The email was sent to:
 
 The recipient was identified by examining the `To` field in the original email header. This field specifies the email address listed as the intended recipient of the message.
 
-### Question 4 – Pending
+---
+
+## Question 4 – Sender Display Name Identification
+
+**Question:**
+
+Based on the sender's display name, who does the email claim to be from?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The email claims to be from:
+
+`Outlook Support Team`
+
+**Analysis:**
+
+The sender's display name was identified by examining the `From` field in the original email header.
+
+Although the display name claims to represent the Outlook Support Team, this information alone does not verify the sender's identity or establish that the message was genuinely sent by Microsoft or Outlook.
 
 ### Question 5 – Pending
 
