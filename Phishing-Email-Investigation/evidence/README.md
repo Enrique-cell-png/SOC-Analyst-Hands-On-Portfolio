@@ -138,8 +138,30 @@ The sender's display name was identified by examining the `From` field in the or
 
 Although the display name claims to represent the Outlook Support Team, this information alone does not verify the sender's identity or establish that the message was genuinely sent by Microsoft or Outlook.
 
-### Question 5 – Pending
+---
 
+## Question 5 – Sender Email Address Identification
+
+**Question:**
+
+What is the sender's email address?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The sender's email address is:
+
+`social201511138@social.helwan.edu.eg`
+
+**Analysis:**
+
+The sender's email address was identified by examining the `From` field in the original email header.
+
+Although the display name claims to represent the Outlook Support Team, the actual sender address uses the domain `social.helwan.edu.eg`.
+
+This discrepancy is a potential phishing indicator because the sender's email domain does not correspond to the organization represented by the display name.
 ### Question 6 – Pending
 
 ### Question 7 – Pending
