@@ -387,7 +387,7 @@ The email body uses **Base64 encoding**.
 **Analysis:**
 #### Supporting Evidence
 
-**Screenshot 13 – Email Body Transfer Encoding (Ubuntu Terminal)**
+**Screenshot 13 – Email Body Transfer Encoding (Thunderbird/sublime text/Ubuntu Terminal)**
 
 ![Content Transfer Encoding](screenshots/Q13-encoding.png)
 
