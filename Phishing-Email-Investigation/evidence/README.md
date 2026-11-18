@@ -368,7 +368,38 @@ This record indicates that the domain delegates its SPF authorization to Microso
 
 This lookup reflects the SPF record available at the time of investigation. It does not independently establish what the domain's SPF record contained on October 31, 2023.
 
-### Question 12 – Pending
+---
+
+## Question 13 – Email Body Transfer Encoding
+
+**Question:**
+
+What type of encoding was used to transfer the email body content?
+
+**Evidence Source:**
+
+Email headers from `01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The email body uses **Base64 encoding**.
+
+**Analysis:**
+
+The email header contains the following declarations:
+
+- `Content-Type: text/html; charset=utf-8`
+- `Content-Transfer-Encoding: base64`
+
+The `Content-Type` header identifies the body as HTML content using UTF-8 character encoding. The `Content-Transfer-Encoding` header specifies that Base64 was used to encode the body for email transmission.
+
+Base64 is an encoding mechanism, not encryption. It does not provide confidentiality or protect the email content from unauthorized access.
+
+**Command Used:**
+
+```bash
+grep -inE 'Content-Transfer-Encoding|Content-Type' challenge1.eml
+```
 
 ### Question 13 – Pending
 
