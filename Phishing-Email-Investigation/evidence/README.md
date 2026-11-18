@@ -308,6 +308,11 @@ The SPF authentication result was:
 `PASS`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 10 – SPF Authentication Result (Sublime Text)**
+
+![SPF Authentication Result](screenshots/Q10-spf-authentication-result.png)
 
 The SPF result was identified by examining the `Authentication-Results` and `Received-SPF` fields in the original email header.
 
