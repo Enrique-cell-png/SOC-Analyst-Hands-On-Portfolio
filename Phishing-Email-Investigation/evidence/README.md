@@ -212,6 +212,11 @@ The sender's email server IP address identified in the header is:
 `40.107.22.60`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 7 – Sender IP Address Identification (Sublime Text)**
+
+![Sender IP Address Identification](screenshots/Q07-sender-ip-address.png)
 
 The IP address was identified by examining the `X-Sender-IP` field in the original email header.
 
