@@ -274,7 +274,7 @@ The IP address `40.107.22.60` is registered to:
 
 **Screenshot 9 – WHOIS IP Ownership Lookup (Ubuntu Terminal)**
 
-![WHOIS IP Ownership Lookup](screenshots/Q09-whois-ip-ownership)
+![WHOIS IP Ownership Lookup](screenshots/Q09-whois-ip-ownership.png)
 
 The IP address ownership was verified using the WHOIS lookup service provided by the American Registry for Internet Numbers (ARIN).
 
