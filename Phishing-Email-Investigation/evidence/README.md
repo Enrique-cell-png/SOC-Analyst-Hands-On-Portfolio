@@ -74,6 +74,11 @@ The subject of the email is:
 `Your account has been flagged for unusual activity`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 2 – Email Subject Identification (Sublime Text)**
+
+![Email Subject Identification](screenshots/Q02-email-subject.png)
 
 The subject was identified by inspecting the `Subject` field in the original email header.
 
