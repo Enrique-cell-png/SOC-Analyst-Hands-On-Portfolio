@@ -385,6 +385,11 @@ Email headers from `01_Phishing_Analysis/Challenges/challenge1.eml`
 The email body uses **Base64 encoding**.
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 13 – Email Body Transfer Encoding (Ubuntu Terminal)**
+
+![Content Transfer Encoding](screenshots/Q13-encoding.png)
 
 The email header contains the following declarations:
 
