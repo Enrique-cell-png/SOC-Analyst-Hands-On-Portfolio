@@ -290,8 +290,37 @@ This confirms that the IP address belongs to an IP allocation registered to Micr
 From a cybersecurity investigation perspective, identifying the registered owner of an IP address helps analysts understand the infrastructure involved in email delivery.
 
 However, IP ownership alone does not establish whether an email is legitimate or malicious. Additional analysis is required to determine the role of the IP address in the phishing campaign.
-### Question 10 – Pending
+---
 
+## Question 10 – SPF Authentication Result
+
+**Question:**
+
+What was the result of the SPF check?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The SPF authentication result was:
+
+`PASS`
+
+**Analysis:**
+
+The SPF result was identified by examining the `Authentication-Results` and `Received-SPF` fields in the original email header.
+
+The receiving mail server reported that the sender IP address `40.107.22.60` was authorized to send emails on behalf of the domain `social.helwan.edu.eg`.
+
+The following header information supports this finding:
+
+- **SPF result:** PASS
+- **Sender IP:** `40.107.22.60`
+- **Envelope sender domain:** `social.helwan.edu.eg`
+- **Receiving mail system:** `protection.outlook.com`
+
+An SPF PASS result indicates that the sending IP address passed the domain's SPF authorization check. However, SPF authentication alone does not establish that an email is legitimate or safe. Phishing emails can also pass SPF authentication.
 ### Question 11 – Pending
 
 ### Question 12 – Pending
