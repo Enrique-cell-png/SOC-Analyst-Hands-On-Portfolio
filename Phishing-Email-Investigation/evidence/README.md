@@ -270,6 +270,11 @@ The IP address `40.107.22.60` is registered to:
 `Microsoft Corporation`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 9 – WHOIS IP Ownership Lookup (Ubuntu Terminal)**
+
+![WHOIS IP Ownership Lookup](screenshots/Q09-whois-ip-ownership)
 
 The IP address ownership was verified using the WHOIS lookup service provided by the American Registry for Internet Numbers (ARIN).
 
