@@ -167,8 +167,28 @@ The sender's email address was identified by examining the `From` field in the o
 Although the display name claims to represent the Outlook Support Team, the actual sender address uses the domain `social.helwan.edu.eg`.
 
 This discrepancy is a potential phishing indicator because the sender's email domain does not correspond to the organization represented by the display name.
-### Question 6 – Pending
+---
 
+## Question 6 – Bounce Email Address Identification
+
+**Question:**
+
+What email address is used for receiving bounced emails?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The bounce email address is:
+
+`social201511138@social.helwan.edu.eg`
+
+**Analysis:**
+
+The bounce email address was identified by examining the `Return-Path` field in the original email header.
+
+This field indicates the address designated to receive email delivery failure notifications (bounce messages). In this case, the Return-Path address is the same as the sender's email address identified in Question 5.
 ### Question 7 – Pending
 
 ### Question 8 – Pending
