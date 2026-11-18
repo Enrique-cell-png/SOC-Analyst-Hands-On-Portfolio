@@ -56,7 +56,28 @@ The Date header represents the timestamp declared in the original email, whereas
 
 ---
 
-### Question 2 – Pending
+---
+
+## Question 2 – Email Subject Identification
+
+**Question:**
+
+What is the subject of the email?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The subject of the email is:
+
+`Your account has been flagged for unusual activity`
+
+**Analysis:**
+
+The subject was identified by inspecting the `Subject` field in the original email header.
+
+This subject uses language that suggests suspicious account activity, potentially creating a sense of urgency and encouraging the recipient to take action. This is a common social engineering technique used in phishing campaigns.
 
 ### Question 3 – Pending
 
