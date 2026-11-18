@@ -102,6 +102,11 @@ The email was sent to:
 `dderringer@mighty-solutions.net`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 3 – Email Recipient Identification (Sublime Text)**
+
+![Email Recipient Identification](screenshots/Q03-email-recipient.png)
 
 The recipient was identified by examining the `To` field in the original email header. This field specifies the email address listed as the intended recipient of the message.
 
