@@ -345,6 +345,10 @@ The SPF record retrieved was:
 `v=spf1 include:spf.protection.outlook.com -all`
 
 **Analysis:**
+#### Supporting Evidence
+**Screenshot 11 – SPF Record Lookup (Ubuntu Terminal)**
+
+![SPF Record Lookup](screenshots/Q11-spf-record.png)
 
 The SPF record was retrieved using the `dig` command to query the DNS TXT records of the sender's domain.
 
