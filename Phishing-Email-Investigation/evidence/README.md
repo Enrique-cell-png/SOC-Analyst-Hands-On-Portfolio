@@ -185,6 +185,11 @@ The bounce email address is:
 `social201511138@social.helwan.edu.eg`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 6 – Return-Path Header Identification (Sublime Text)**
+
+![Return-Path Header Identification](screenshots/Q06-return-path.png)
 
 The bounce email address was identified by examining the `Return-Path` field in the original email header.
 
