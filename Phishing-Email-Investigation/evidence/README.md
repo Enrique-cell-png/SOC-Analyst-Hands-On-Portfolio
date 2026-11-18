@@ -156,6 +156,11 @@ The sender's email address is:
 `social201511138@social.helwan.edu.eg`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 5 – Sender Email Address Identification (Sublime Text-thunderbird)**
+
+![Sender Email Address Identification](screenshots/Q05-sender-email-address.png)
 
 The sender's email address was identified by examining the `From` field in the original email header.
 
