@@ -194,8 +194,30 @@ The bounce email address is:
 The bounce email address was identified by examining the `Return-Path` field in the original email header.
 
 This field indicates the address designated to receive email delivery failure notifications (bounce messages). In this case, the Return-Path address is the same as the sender's email address identified in Question 5.
-### Question 7 – Pending
+---
 
+## Question 7 – Sender Mail Server IP Identification
+
+**Question:**
+
+What is the IP address of the sender's email server?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The sender's email server IP address identified in the header is:
+
+`40.107.22.60`
+
+**Analysis:**
+
+The IP address was identified by examining the `X-Sender-IP` field in the original email header.
+
+This field identifies the IP address associated with the sending server as reported by the email header. The address can be used as an indicator of compromise (IOC) for further investigation, including IP reputation checks and infrastructure analysis.
+
+It is important to correlate this value with the `Received` headers before attributing the IP address to the original sender or attacker.
 ### Question 8 – Pending
 
 ### Question 9 – Pending
