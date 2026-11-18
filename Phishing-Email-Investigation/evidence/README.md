@@ -241,6 +241,11 @@ The resolved hostname associated with sender IP address `40.107.22.60` is:
 `mail-am6eur05on2060.outbound.protection.outlook.com`
 
 **Analysis:**
+#### Supporting Evidence
+
+**Screenshot 8 – Reverse DNS Lookup (Ubuntu Terminal)**
+
+![Reverse DNS Lookup](screenshots/Q08-reverse-dns-lookup.png)
 
 The hostname was identified through reverse DNS (PTR) resolution of the sender IP address `40.107.22.60`.
 
