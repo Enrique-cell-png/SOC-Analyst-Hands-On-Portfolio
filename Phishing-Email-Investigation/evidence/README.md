@@ -327,6 +327,26 @@ The following header information supports this finding:
 
 An SPF PASS result indicates that the sending IP address passed the domain's SPF authorization check. However, SPF authentication alone does not establish that an email is legitimate or safe. Phishing emails can also pass SPF authentication.
 
+Question 11 – SPF Record Identification
+Question:
+What is the full SPF record of the sender's domain?
+Evidence Source:
+DNS TXT lookup for social.helwan.edu.eg
+Finding:
+The SPF record retrieved was:
+v=spf1 include:spf.protection.outlook.com -all
+Analysis:
+The SPF record was retrieved using the dig command to query the DNS TXT records of the sender's domain.
+The record contains three important components:
+	• v=spf1: Identifies the SPF version.
+	• include:spf.protection.outlook.com: Authorizes sending infrastructure permitted by Microsoft's SPF policy.
+	• -all: Specifies a hard-fail policy for senders that do not match the authorized mechanisms.
+This record indicates that the domain delegates its SPF authorization to Microsoft's email protection infrastructure and explicitly rejects other unauthorized sending sources.
+Command Used:
+dig TXT social.helwan.edu.eg +short | grep 'v=spf1'
+Important Note:
+This lookup reflects the SPF record available at the time of investigation. It does not independently establish what the domain's SPF record contained on October 31, 2023.
+
 ### Question 12 – Pending
 
 ### Question 13 – Pending
