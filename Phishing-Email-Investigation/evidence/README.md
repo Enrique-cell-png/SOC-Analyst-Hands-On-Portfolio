@@ -326,7 +326,6 @@ The following header information supports this finding:
 - **Receiving mail system:** `protection.outlook.com`
 
 An SPF PASS result indicates that the sending IP address passed the domain's SPF authorization check. However, SPF authentication alone does not establish that an email is legitimate or safe. Phishing emails can also pass SPF authentication.
-### Question 11 – Pending
 
 ### Question 12 – Pending
 
