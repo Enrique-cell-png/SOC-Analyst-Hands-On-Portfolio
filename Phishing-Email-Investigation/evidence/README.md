@@ -84,7 +84,26 @@ The subject was identified by inspecting the `Subject` field in the original ema
 
 This subject uses language that suggests suspicious account activity, potentially creating a sense of urgency and encouraging the recipient to take action. This is a common social engineering technique used in phishing campaigns.
 
-### Question 3 – Pending
+---
+
+## Question 3 – Recipient Identification
+
+**Question:**
+
+Who was the email sent to?
+
+**Evidence Source:**
+`01_Phishing_Analysis/Challenges/challenge1.eml`
+
+**Finding:**
+
+The email was sent to:
+
+`dderringer@mighty-solutions.net`
+
+**Analysis:**
+
+The recipient was identified by examining the `To` field in the original email header. This field specifies the email address listed as the intended recipient of the message.
 
 ### Question 4 – Pending
 
